@@ -71,5 +71,5 @@ scale: 261, real_max_diff: 162.882080, imag_max_diff: 161.465424
 scale: 257, real_max_diff: 155.064240, imag_max_diff: 157.468262
 sacle: 255, OK
 scale: 256, real_max_diff: 159.027313, imag_max_diff: 166.023514
-// Accuracy is fine after commenting out Apple M1 tuning results in CLBlast
+// Accuracy is fine after commenting out Intel(R) UHD Graphics 770 tuning results in CLBlast
 ```
