@@ -56,3 +56,20 @@ sacle: 1151, OK
 scale: 1152, max_diff: 322.837982
 // Accuracy is fine after commenting out Apple M1 tuning results in CLBlast
 ```
+
+Cgemm:
+
+```
+// Intel(R) UHD Graphics 770, CLBlast commit: e0c06a9ac1da141c2cb684b4a10ce457b3328360
+scale: 550, real_max_diff: 318.123413, imag_max_diff: 320.759399
+scale: 325, real_max_diff: 196.814056, imag_max_diff: 191.424683
+sacle: 212, OK
+scale: 268, real_max_diff: 162.766602, imag_max_diff: 165.656494
+sacle: 240, OK
+sacle: 254, OK
+scale: 261, real_max_diff: 162.882080, imag_max_diff: 161.465424
+scale: 257, real_max_diff: 155.064240, imag_max_diff: 157.468262
+sacle: 255, OK
+scale: 256, real_max_diff: 159.027313, imag_max_diff: 166.023514
+// Accuracy is fine after commenting out Apple M1 tuning results in CLBlast
+```
