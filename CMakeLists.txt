@@ -26,6 +26,7 @@ if(OpenCL_FOUND)
     endif()
 
     add_executable(sgemm sgemm.cpp)
+    add_executable(cgemm cgemm.cpp)
     set(LD_LIBRARIES "")
     if(APPLE)
         add_compile_definitions(HAVE_ACCELERATE)
@@ -49,4 +50,5 @@ if(OpenCL_FOUND)
     endif()
 
     target_link_libraries(sgemm ${LD_LIBRARIES})
+    target_link_libraries(cgemm ${LD_LIBRARIES})
 endif()
