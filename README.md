@@ -57,7 +57,7 @@ scale: 1152, max_diff: 322.837982
 // Accuracy is fine after commenting out Apple M1 tuning results in CLBlast
 ```
 
-Cgemm:
+(Fixed via https://github.com/CNugteren/CLBlast/pull/543) Cgemm:
 
 ```
 // Intel(R) UHD Graphics 770, CLBlast commit: e0c06a9ac1da141c2cb684b4a10ce457b3328360
