@@ -39,7 +39,7 @@ cd test-clblast
 
 ## Results
 
-Sgemm:
+S(Fixed via https://github.com/CNugteren/CLBlast/pull/543) Sgemm:
 
 ```
 // Apple M1, CLBlast commit: e0c06a9ac1da141c2cb684b4a10ce457b3328360
